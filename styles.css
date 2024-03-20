@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css2?family=Monserrat&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+#menu li >a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+#menu form > button{
+    font-size: 18px;
+    font-weight: bold;
+}
+.carousel-inner{
+    max-height:40rem !important;
+}
+.carousel-item img{
+    width: 95%;
+    align-items: center;
+}
+.horario{
+    padding: 100px 0px;
+    background-color: #198754 ;
+  }
+  .socials{
+    display: flex;
+  }
+  .social{
+    margin: 0 10px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #536d0c;
+    border-radius: 50%;
+  }
+  .social:hover{
+    background-color: #536d0c;
+  }
+  .social img{
+    margin: 8px 0 0 10px;
+  }
+  .horario-info h2{
+    font-size: 75px;
+    color: #FFFFFF;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  
+  }
+  .horario-txt{
+    display: flex;
+    justify-content: space-between;
+  }
+  .txt{
+    color: #FFFFFF;
+  }
+  .txt p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  .footer{
+    background-color: #4a9270 ;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .links h4{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+  .links ul li a {
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+  }
+
+
+
+
+
+
+@media (max-width:768px){
+    #intro{
+        width: 90% !important;
+    }
+    .servicio{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+@media (max-width:576px){
+    #incon-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
